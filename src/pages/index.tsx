@@ -9,7 +9,7 @@ export default function Hello() {
       {/* ヘッダー */}
       <Box mb={8} textAlign="center">
         <Heading as="h1" size="2xl">emon</Heading>
-        <Text fontSize="lg" color="gray.600">Hosei university student / iyatomi lab / M3</Text>
+        <Text fontSize="lg" color="gray.600">Hosei university student / iyatomi lab / B3</Text>
       </Box>
 
       {/* プロフィールセクション */}
