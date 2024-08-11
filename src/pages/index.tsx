@@ -28,14 +28,14 @@ export default function Hello() {
       <VStack spacing={4} align="stretch" w="full" maxW="md">
         <Box p={4} shadow="md" borderWidth="1px" borderRadius="md">
           <Heading fontSize="xl">PBL report 1</Heading>
-          <Text mt={4}>第1回PBLレポート"Linux, GCE, mise, Git/Github, FastAPI"</Text>
+          <Text mt={4}>第1回PBLレポート&quot;Linux, GCE, mise, Git/Github, FastAPI&quot;</Text>
           <Button mt={4} colorScheme="teal" onClick={() => window.open('/pdf/第1回レポート.pdf', '_blank')}>
             View
           </Button>
         </Box>
         <Box p={4} shadow="md" borderWidth="1px" borderRadius="md">
           <Heading fontSize="xl">PBL report 2</Heading>
-          <Text mt={4}>第2回PBLレポート"Docker, PostgreSQL, Next.js, Chakra-UI, Vercel"</Text>
+          <Text mt={4}>第2回PBLレポート&quot;Docker, PostgreSQL, Next.js, Chakra-UI, Vercel&quot;</Text>
           <Button mt={4} colorScheme="teal" onClick={() => window.open('/pdf/第2回レポート.pdf', '_blank')}>
             View
           </Button>
